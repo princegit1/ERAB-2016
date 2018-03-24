@@ -1,0 +1,202 @@
+*{padding:0; margin:0; outline: none}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:100%; font-size:14px; /*background:#fefeb6*/ }
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+
+.wrapperContainerMain{ width:1000px; margin:0 auto}
+.topRdHeaderBox{ float: left; width:100%; box-sizing: border-box; padding:10px; background:#b4cfed; position: relative}
+.topRdHeaderBox:after{ background: url(../images/topHeaderBorder.jpg) repeat-x; width:100%; height:31px; content:""; position: absolute; bottom:-31px; left:0}
+.topRdLogoSec{ float: left; width:100%}
+.topRdLogoSec .rdLogoRight{ float: right; margin-top:-8px}
+.topRdLogoSec .topRdNumber{ float: left; font:bold 22px/22px Arial, Helvetica, sans-serif}
+.prizeDrawList{ float: left; width:100%}
+.prizeDrawList ul li{ border-top:3px solid #000; float: left; width:100%}
+.prizeDrawList ul li .prize{ float: left; width:590px; font:bold 24px Arial, Helvetica, sans-serif; color:#000;text-transform: uppercase;vertical-align: middle; padding:6px 0px 6px 0}
+.prizeDrawList ul li .year{float: left; width:115px; vertical-align: middle;text-transform: uppercase; text-align: center; font:bold 26px Arial, Helvetica, sans-serif;padding:5px 10px; box-sizing: border-box; color:#000; border-left:3px solid #000;border-right:3px solid #000}
+.prizeDrawList ul li .year small{ color:#fff}
+.prizeDrawList ul li .RfNumber{float: left; font:14px/20px Arial, Helvetica, sans-serif; text-transform: uppercase; padding:0px 10px; vertical-align: middle}
+.prizeDrawList ul li .RfNumber small{ padding-left:25px; font-family:monospace}
+.reciptName{ float: left; width:300px; box-sizing: border-box}
+.residenceName{ float: left; width:190px; border-left:3px solid #000; border-right:3px solid #000; box-sizing: border-box; padding:0 10px}
+.employmentName{ float: left; width:440px; box-sizing: border-box; padding:0 10px;}
+.reciptName h2{ font:bold 15px/20px Arial, Helvetica, sans-serif; color:#000; text-transform: uppercase; margin:5px 0 3px;}
+.reciptName span{ font:15px monospace; display: inline-block; padding-bottom:2px}
+.residenceName h2{ font:bold 15px/20px Arial, Helvetica, sans-serif; color:#000; text-transform: uppercase; margin:5px 0 3px;}
+.residenceName span{ font:15px monospace;display: inline-block; padding-bottom:2px}
+.employmentName h2{ font:bold 15px/20px Arial, Helvetica, sans-serif; color:#000; text-transform: uppercase; margin:5px 0 3px;}
+.employmentName span{ font:15px monospace;display: inline-block; padding-bottom:2px}
+.empRequiment{ float: left; width:540px; box-sizing: border-box}
+.demoCriteria{ float: left; width:410px; border-left:3px solid #000; box-sizing: border-box; padding:2px 10px; }
+.empRequiment h2{ font:bold 15px/20px Arial, Helvetica, sans-serif; color:#000; text-transform: uppercase; margin:5px 0 3px;}
+.empRequiment span{ font:15px monospace; display: inline-block; padding-bottom:5px;}
+.demoCriteria h2{ font:bold 15px/20px Arial, Helvetica, sans-serif; color:#000; text-transform: uppercase; margin:5px 0 3px;}
+.demoCriteria span{ font:15px monospace;display: inline-block; padding-bottom:2px;}
+.allStatusHead{ float: left; width:100%; text-align: center}
+.inqueryStatus,.prizeMatch,.AddSubscribe{font:bold 15px/22px Arial, Helvetica, sans-serif; color:#000; text-transform: uppercase; display: inline-block; text-align: center; padding:3px 25px;}
+.allStatusHead img{ margin-top:2px;}
+/*Bottom Sec*/
+.botmStsSec{ float: left; width:100%; background:#fffbdb; box-sizing: border-box; padding:70px 20px 20px}
+.authorizeSec{ float: left; width:300px;}
+.promptReplySec{ float: left; width:265px; margin:30px 0 0 65px;}
+.promptReplySec p{font:400 20px/32px Arial,Helvetica,sans-serif; text-align: center}
+.promptReplySec img{ margin-top:20px}
+.amtDetailSec{ float: left; width:300px; margin-left:28px; margin-top:30px;}
+.amtDetailSec a{ margin:30px 0 0 38px; display: block}
+
+/*=====page 2 Css======*/
+
+.hondaCitybanner2{ width:880px; margin:0 auto; background:#feffb3}
+.hCbannerCheckBox{ background:#fdff60; float: left; width:100%; box-sizing: border-box; padding:20px 20px;}
+.hCbannerCheckBox h2{ font:bold 28px Arial, Helvetica, sans-serif; float: left; width:580px; text-align:-moz-center; text-align:-webkit-center; position: relative}
+.hCbannerCheckBox h2:after{ background:url(../images/banneraro2.png) no-repeat; position: absolute; right:-40px; top:15px; height:57px; width:42px; content:""}
+.selectBoxSec{ float: left; margin-top:20px; margin-left:15px}
+.selectBox{ float: left; margin-left:35px}
+.selectBox label{ font:26px  Arial, Helvetica, sans-serif;color:#000;}
+.selectBox input[type="radio"] { display:none;}
+.selectBox input[type="radio"] + label span { display:inline-block; width:26px;  height:27px; margin:1px 4px 0 0;vertical-align:middle;
+    background:url(../images/radioboximg.png) 0 top no-repeat; cursor:pointer;float: left}
+.selectBox input[type="radio"]:checked + label span {  background:url(../images/radioboximg.png) 0px -28px no-repeat;}
+
+.yourToWinSec{ float: left; width:100%; background:#feffb3; box-sizing: border-box; padding:20px; min-height:500px;}
+.winLeftContent{ float: left; width:405px; position: relative}
+.winLeftContent p{ color:#000; font:600 18px/26px Arial, Helvetica; position: relative; z-index:9 }
+.winLeftContent p span,.winLeftContent p a{ color:#0056b7}
+.hondaCityCarImg{ position: absolute; bottom:-250px; left:-20px; z-index:8}
+.rightContinueBtn{ float: right; position: relative; z-index:9}
+.rightContinueBtn a{ float: right; margin-top:15px}
+.rdMagineleftSec{ float: left; width:280px;}
+.rdMaginerightSec{ float: left; width:650px; box-sizing: border-box; position: relative; padding:0 20px 0 40px;}
+.rdMaginerightSec h2{ font:bold 30px Arial, Helvetica, sans-serif; color:#0666cc; text-transform: uppercase}
+.rdMaginerightSec p{ font:400 17px Arial, Helvetica, sans-serif; color:#000; margin-bottom:10px}
+.rdMaginerightSec p span,.rdMaginerightSec p a{ color:#02981b}
+
+.freeNotebookSec{ position: absolute; left:-30px; bottom:-130px; width:730px;height:110px; background:#fffa85; box-sizing: border-box; padding:8px;}
+.freeNotebookSec h3{ font:600 17px/22px Arial, Helvetica, sans-serif; color:#0865cd}
+.freeNotebookSec small{ font:600 14px Arial, Helvetica, sans-serif; color:#000}
+.freenotbookcarImg{ position: absolute; bottom:-125px;  left:0px;}
+.notebookBtn{ position: absolute; right: 5px; top:35px;}
+
+.botmmazineSec{float: left; width:100%;min-height:570px; box-sizing: border-box; padding:70px 20px 20px; background:#fefeb6}
+.botmmazineSec h2{ color:#000; font:600 26px/32px Arial, Helvetica, sans-serif; text-transform: uppercase; text-align: center}
+.botmmazineSec h2 span{ color:#226b00}
+.mazineleftNoSec{ float: left; width:445px; text-align: center; position: relative}
+.mazineleftNoSec img{ margin-top:75px;}
+.noBtn{ width:166px; height:57px; margin-bottom:20px; display:inline-block; text-align:center; background:#a8a8a8; font:26px/57px Arial, Helvetica, sans-serif; text-align: center; text-decoration: none; color:#000	}
+.mazineleftNoSec p{ margin-top:10px; font:600 13px Arial, Helvetica, sans-serif}
+.mazineRightNoSec{ float: right; width:435px; text-align: center}
+.mazineRightNoSec img{ margin-top:20px;}
+.yesBtn{ margin:0px 0 5px 0; padding:0px; overflow:hidden; display:block}
+.mazineRightNoSec p{margin-top:3px; font:600 13px Arial, Helvetica, sans-serif}
+.botmmazineSec.page5 p{ font:400 18px/24px Arial, Helvetica, sans-serif; color:#000; text-align: center; margin-top:20px;}
+.rdMagineleftSec > img{ padding-bottom:90px;}
+
+.mazine_pic { margin:0px; padding:0px; overflow:hidden}
+.mazineRight_text, .mazineLeft_text { margin:0px 0 55px 0; padding:0px; text-align:center; font:600 13px Arial, Helvetica, sans-serif; line-height:18px;}
+
+.mazineRight_text ul, .mazineLeft_text ul { margin:25px 0 0 10px; padding:0px; list-style:none; text-align:left}
+.mazineRight_text ul li, .mazineLeft_text ul li { margin:0px; padding:0px 0 10px 30px; background:url(../images/red-arrow.png) no-repeat}
+
+
+
+.mazineleftNoSec:after { margin:0px; padding:0px; width:34px; height:38px; background:url(../images/plus-icon.png) no-repeat 0px 0px; position: absolute; right:-70px; top:210px; content:""}
+.sbmt_rab{cursor:pointer; display: block;border:0;background:url(../images/continue.jpg) no-repeat; height:57px; width:166px; margin: 30px 0 0 38px;}
+/*.sbmt_rab2{float: right;margin-top: 15px;cursor:pointer; border:0;background:url(../images/continue2.png) no-repeat; height:57px; width:166px; margin: 30px 0 0 38px;}*/
+.sbmt_rab2{position: relative;cursor: pointer;left: 0;top:10px;border: 0;background: url(../images/continue2.png) left no-repeat;height: 65px;width: 191px; }
+.notebookBtn {border:0;position: absolute;right: 5px;top: 35px;cursor: pointer;background: url(../images/continue2.png) left no-repeat;height: 65px;width: 191px;}
+/*Responsive*/
+
+@media only screen and (min-width:768px) and (max-width:1000px)  {
+
+.wrapperContainerMain{ width:100%;}
+.topRdHeaderBox{ padding:10px 10px;}
+.prizeDrawList ul li .prize{ width:395px; font-size:20px}
+.prizeDrawList ul li .year{ width:100px; font-size:30px}
+.prizeDrawList ul li .RfNumber{ width:232px; padding:3px 10px 0}
+.reciptName{ width:240px}
+.employmentName{ width:315px}
+.employmentName span{ font-size:13px;}
+.empRequiment{ width:405px}
+.demoCriteria{ width:340px}
+.empRequiment span,.demoCriteria span,.reciptName span,.residenceName span,.employmentName span{ padding-bottom:5px; display: inline-block}
+.allStatusHead img{ width:100%}
+.botmStsSec{ padding:80px 10px 20px}
+.authorizeSec{ width:250px;}
+.authorizeSec img{ width:100%}
+.promptReplySec{ margin:10px 0 0 10px; width:245px}
+.promptReplySec p{ font-size:18px;}
+.amtDetailSec{ margin:10px 0 0 10px; width:230px}
+.amtDetailSec >img{ width:100%}
+
+.hCbannerCheckBox h2{ font-size:22px; width:470px}
+.selectBox label{ font-size:22px}
+.hondaCitybanner2{ width:100%}
+.hondaCityCarImg img{ width:176%}
+.rdMaginerightSec { box-sizing: border-box; float: left; padding: 0 10px 0 30px; width: 458px;}
+.freeNotebookSec{ bottom:-190px; left:-272px;}
+.botmStsSec{ min-height:700px;}
+.mazineRightNoSec,.mazineleftNoSec{ float: none; margin: auto}
+
+.mazineleftNoSec::after { display:none}
+.mazine_pic { margin-bottom:30px;}
+
+
+	
+}
+@media only screen and (max-width:767px)  {
+.wrapperContainerMain{ width:100%;}	
+.topRdHeaderBox{ padding:10px 10px;}
+.prizeDrawList ul li .prize{ width:42%; font-size:12px; padding:11px 0}
+.prizeDrawList ul li .year{ width:17%; font-size:16px; padding:16px 0px;}
+.prizeDrawList ul li .RfNumber{ width:41%; padding:6px 5px 6px 8px; box-sizing: border-box; line-height:13px; font-size:11px}
+.prizeDrawList ul li .RfNumber small{ padding-left:0px;}
+.reciptName,.residenceName,.employmentName,.empRequiment,.demoCriteria{ float: left; width:100%}
+.residenceName{ border-bottom:1px solid #000;border-top:1px solid #000; border-left:0; border-right:0px}
+.prizeDrawList ul li{ border-top:1px solid #000}
+.prizeDrawList ul li .year{border-left: 1px solid #000;  border-right: 1px solid #000;}
+.reciptName h2,.residenceName h2,.employmentName h2,.empRequiment h2,.demoCriteria h2{ margin:2px 0 0; font-size:12px}
+.reciptName span,.residenceName span,.employmentName span,.empRequiment span,.demoCriteria span{ font-size:12px; padding-bottom:4px}
+.demoCriteria{ padding:0; border-left:0px;border-top:1px solid #000;}
+.inqueryStatus, .prizeMatch, .AddSubscribe{ padding:3px; line-height:15px; font-size:7px;}
+.allStatusHead img{ margin-top:5px;}
+.promptReplySec p{ font-size:16px; line-height:24px;}
+.hondaCityCarImg{ bottom: inherit; position: relative; left:0}
+.botmStsSec,.botmmazineSec{ padding:50px 10px 20px}
+.authorizeSec,.promptReplySec,.amtDetailSec,.rdMagineleftSec{ float: none; margin: auto; padding-bottom:20px}
+.allStatusHead img,.hondaCitybanner2{ width:100%}
+.yourToWinSec,.botmmazineSec,.botmStsSec{min-height: auto;}
+.hCbannerCheckBox{ padding:10px;}
+.hCbannerCheckBox h2,.rdMaginerightSec h2{ width:100%; font-size:24px; padding-bottom:20px}
+.hCbannerCheckBox h2{ font-size:20px; padding-bottom:0px}
+.hCbannerCheckBox h2 br,.rdMaginerightSec h2 br,.botmmazineSec.page5 p br,.prizeDrawList ul li .RfNumber br{ display: none}
+.hCbannerCheckBox h2::after{ display: none}
+.selectBox label{ font-size:20px; line-height:34px}
+.notebookBtn img{ width:43%}
+.selectBoxSec,.rightContinueBtn{ width:284px; float: none; margin: auto}
+.rightContinueBtn img{ width:61%}
+.selectBox{ margin-top:15px}
+.yourToWinSec{ padding:10px}
+.winLeftContent{ width:100%}
+.winLeftContent p{ font-size:14px;}
+.hondaCityCarImg img,.freenotbookcarImg > img,.mazineRightNoSec>img,.mazineleftNoSec>img{ width:100%}
+.rdMaginerightSec{ width:100%; padding:0px;}
+.freeNotebookSec{ width:100%}
+.freenotbookcarImg,.notebookBtn,.freeNotebookSec{ position: relative; bottom:0; left:0}
+.botmmazineSec h2{ font-size:16px; line-height:26px;}
+.mazineRightNoSec,.mazineleftNoSec{ float: left; width:100%}
+.yesBtn{ width:200px; margin: auto}
+.mazineRightNoSec p{ margin-top:20px;}
+.mazineRightNoSec img{ width:80%}
+.noBtn{ height:36px; line-height:36px; font-size:17px; width:100px}
+.notebookBtn{ width:230px; margin: auto; text-align: center; left: inherit; display: block}
+.rdMagineleftSec > img{ padding-bottom:0px;}	
+.freeNotebookSec{ height: auto; padding-bottom:50px;}	
+
+.mazineleftNoSec img {    width: 80%;}
+.mazine_pic { margin-bottom:25px;}
+	
+}
+
+
+
